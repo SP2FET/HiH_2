@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="lampy_fo.xsl"?>
+<strona jezyk="PL">
+  
+    <spis_tresci>
+      <wpis do="#artykuly">Artykuły</wpis>
+      <wpis do="#wzm">Wzmacniacze</wpis>
+      <wpis do="#lampy">Lampy</wpis>
+      <wpis do="#uklady">Opisy układów</wpis>
+    </spis_tresci>
+  <artykuly>
+    <artykul nazwa="Strona główna" ocena="2">
+       Witaj na stronie poświęconej tematowi lamp elektronowych!
+      </artykul>
+    <artykul nazwa="Dioda" ocena="4">
+      
+
+      Dioda to najprostsza lampa elektronowa, zawierająca dwie elektrody, anodę i katodę. Rozgrzana katoda jest źródłem elektronów, które docierają do anody – w ten sposób możliwy jest przepływ prądu w jednym kierunku. Próżniowe diody prostownicze wysokiego napięcia nazywa się kenotronami.
+
+      Dioda próżniowa składa się z zamkniętych w próżniowej obudowie (najczęściej szklanej bańce) dwóch elektrod: wyposażonej w grzejnik katody i anody. Z rozgrzanej katody, na skutek zjawiska termoemisji, możliwa jest emisja elektronów. Przy dodatniej polaryzacji anody względem katody pole elektryczne między nimi przyspiesza elektrony, które docierają do anody – w ten sposób możliwy jest przepływ prądu elektrycznego. Przy polaryzacji odwrotnej pole elektryczne hamuje ruch elektronów, nie dopuszczając do ich przepływu. Prąd więc płynie przez diodę tylko w jednym kierunku, od anody do katody (elektrony poruszają się w kierunku przeciwnym), wtedy, gdy anoda ma potencjał wyższy niż katoda.
+
+      W diodach żarzonych bezpośrednio katoda ma postać cienkiego drucika lub taśmy pełniących jednocześnie rolę grzejnika. Początkowo stosowano katody wolframowe, później wolframową taśmę lub drucik pokrywano mieszaniną tlenków o dużej zdolności termoemisji. Pierwsze diody były żarzone bezpośrednio. Diody wysokiego napięcia pozostały przy tej metodzie żarzenia do końca rozwoju techniki lampowej. Również lampy przeznaczone do zasilania z baterii mają przeważnie katodę żarzoną bezpośrednio.
+
+      W diodach żarzonych pośrednio grzejnik ma postać cienkiego włókna umieszczonego wewnątrz katody w kształcie rurki, zwykle jest od niej odizolowany. Rurka katody jest pokryta tlenkami o dużej zdolności emisyjnej. W miarę rozwoju techniki lampowej w większości rodzajów diod producenci przeszli na żarzenie pośrednie.
+
+    </artykul>
+    <artykul nazwa="Pentoda" ocena="6">
+      Pentoda jest próżniową lampą elektronową zawierającą pięć elektrod: anodę, żarzoną katodę i trzy siatki.
+
+      Pentody były bardzo wszechstronnymi i popularnymi lampami elektronowymi znajdującymi zastosowanie w szerokiej gamie układów elektronicznych.
+
+      Pentoda powstała jako rozwinięcie tetrody, przez dołożenie dodatkowej, trzeciej siatki pomiędzy siatkę drugą (ekranującą) a anodę. Modyfikacja ta usuwa istotną wadę tetrody, jaką jest zachodzenie w niej zjawiska dynatronowego będącego rezultatem emisji wtórnej. Uderzające w anodę elektrony wybijają z niej elektrony wtórne. Jeśli napięcie siatki ekranującej jest większe od anodowego, część elektronów wtórnych osiąga tą siatkę powodując zniekształcenie charakterystyki anodowej. Dodatkowa trzecia siatka ma niski potencjał (z reguły jest połączona z katodą) i jest dość rzadka. Obniża ona potencjał w przestrzeni pomiędzy anodą a siatką drugą, co powoduje zawrócenie elektronów wtórnych na powrót do anody. Wprowadzenie trzeciej siatki pozwala uniknąć negatywnych skutków emisji wtórnej, a ponadto zwiększa efekt ekranowania siatki sterującej (pierwszej) od anody. Charakterystyki pentod są podobne do charakterystyk tetrod, mają one nieco większą rezystancję wyjściową i mniejszą pojemność anoda-siatka druga.
+
+      Gdy siatka jest spolaryzowana ujemnie (w stosunku do katody) hamuje ona elektrony i zawraca je do katody zmniejszając prąd anodowy. Przy katodzie tworzy się wtedy chmura przestrzennego ładunku ujemnego (elektronów), która przeciwdziała emisji elektronów z katody. Gdy siatka jest spolaryzowana dodatnio, dodatkowo przyspiesza elektrony, zwiększając płynący prąd (część elektronów dociera jednak wtedy do siatki powodując przepływ prądu w jej obwodzie).
+    </artykul>
+    <artykul nazwa="Triody" ocena="4">
+      Trioda to najprostsza i najstarsza lampa wzmacniająca sygnały elektryczne. Ma trzy elektrody – anodę, katodę i siatkę. Trioda umożliwia sterowanie przepływem elektronów z katody do anody przez zmianę napięcia na siatce. Znalazła zastosowanie w licznych układach elektronicznych: wzmacniaczach, generatorach i innych. Krótko triodą nazywa się najczęściej trójelektrodowe lampy próżniowe, choć niektóre tyratrony są gazowanymi triodami. W początkowym okresie rozwoju techniki półprzewodnikowej tranzystor nazywano triodą półprzewodnikową lub triodą krystaliczną.
+    </artykul>
+    <linki>
+      <link link_href="http://wikipedia.pl">Wikipedia</link>
+      <link link_href="http://www.trioda.com/forum/">Forum Trioda</link>
+      <link link_href="http://google.pl">Google</link>     
+    </linki>
+  </artykuly>
+  
+  
+
+  <uklady>
+    <uklad>
+      <typ>Push-Pull</typ>
+      <opis>Opis push-pull</opis>
+      <ilosc_lamp>3</ilosc_lamp>
+    </uklad>
+    <uklad>
+      <typ>SRPP</typ>
+      <opis>Opis SRPP</opis>
+      <ilosc_lamp>3</ilosc_lamp>
+    </uklad>
+    <uklad>
+      <typ>Single-Ended</typ>
+      <opis>opis SE</opis>
+      <ilosc_lamp>1</ilosc_lamp>
+    </uklad>
+    <uklad>
+      <typ>Preamp</typ>
+      <opis>opis preampa</opis>
+      <ilosc_lamp>5</ilosc_lamp>
+    </uklad>
+  </uklady>
+
+  <lampy>
+    <lampa nazwa="EL84">
+      <typ>pentoda</typ>     
+      <Ua>250.0 V</Ua>
+      <zdjecie zrodlo="EL84.jpg" opis="Lampa EL84"/>
+    </lampa>
+    <lampa nazwa="ECC83">
+      <typ>duotrioda</typ>
+      <Ua>250.0 V</Ua>
+      <zdjecie zrodlo="ECC83.jpg" opis="Lampa EL84"/>
+    </lampa>
+  </lampy>
+  
+  <wzmacniacz nazwa="Soldano SLO-100">
+    <lampy>EL34 ECC83</lampy>
+    <moc>100</moc>
+    <typ>Head</typ>
+    <cena>4599.59</cena>
+  </wzmacniacz>
+
+  <wzmacniacz nazwa="Marshall JCM-800">
+    <lampy>EL34 ECC83</lampy>
+    <moc>100</moc>
+    <typ>Head</typ>
+    <cena>2599.59</cena>
+  </wzmacniacz>
+
+
+  <wzmacniacz nazwa="Peavey Express 112">
+    <lampy>brak</lampy>
+    <moc>065</moc>
+    <typ>Combo</typ>
+    <cena>1519.55</cena>
+  </wzmacniacz>
+
+ 
+  
+    <stopka kompletna="nie">Bartosz Cichocki</stopka>
+
+</strona>
